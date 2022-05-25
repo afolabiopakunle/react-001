@@ -11,13 +11,17 @@ function Todo(props) {
     setModalState(true)
   }
 
+  function cancelHander() {
+    setModalState(false)
+  }
+
   return (
     <div className="card">
       <h2 className="title">{props.text}</h2>
       <div className="actions">
         <button className="btn" onClick={deleteHandler}>Delete</button>
       </div>
-      {isModalOpen && <Backdrop />}
+      {isModalOpen && <Backdrop onCancel={cancelHander} />}
       {isModalOpen && <Modal /> }
     </div>
   );

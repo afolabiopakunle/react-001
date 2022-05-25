@@ -1,12 +1,6 @@
 import React from 'react';
-import {useState} from 'react'
 
 function Modal() {
-  const [isModalOpen, setModalState] = useState(true)
-
-  function removeModal() {
-    setModalState(false)
-  }
 
   return (
     <div className="modal"> 
