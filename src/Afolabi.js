@@ -1,8 +1,10 @@
 import React from 'react'
 import './style.css'
 
-export default function Afolabi() {
+function Afolabi() {
   return (
     <button class="btn btn-primary">Afolabi Click</button>
   )
 }
+
+export default Afolabi;
