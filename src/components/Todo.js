@@ -1,9 +1,10 @@
 import React from 'react';
+import Modal from './Modal';
 
 function Todo(props) {
 
   function deleteHandler() {
-    alert(props.text)
+    return <Modal />
   }
 
   return (
