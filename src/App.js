@@ -7,8 +7,10 @@ import Afolabi from './Afolabi';
 
 function App() {
   return (
-    <div className="card">
+    <div>
       <h1>My Todos</h1>
+      <Todo />
+      <Todo />
       <Todo />
     </div>
   );

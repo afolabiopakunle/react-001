@@ -60,6 +60,7 @@ h1, h2 {
   box-shadow: 0 1px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   width: 20rem;
+  margin-bottom: 1rem;
 }
 
 .backdrop {
