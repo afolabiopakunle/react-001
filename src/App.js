@@ -2,8 +2,7 @@ import React from 'react';
 import './style.css';
 
 import Todo from './components/Todo';
-import Modal from './components/Modal';
-import Backdrop from './components/Backdrop';
+
 
 
 function App() {
@@ -13,8 +12,6 @@ function App() {
       <Todo text="Learn react"/>
       <Todo text="Do a react project" />
       <Todo text="Add react to my portfolio" />
-      <Modal />
-      <Backdrop />
     </div>
   );
 }
