@@ -3,7 +3,7 @@ import React from 'react';
 function Todo(props) {
 
   function deleteHandler() {
-    alert("Una well done ooo")
+    alert(props.text)
   }
 
   return (
